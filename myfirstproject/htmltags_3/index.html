@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Form</title>
+</head>
+
+<body>
+	<form action="#" method="post" enctype="multipart/form-data">
+		<div>
+			<p>Имя</p>
+			<p><input tabindex="1" type="text" username="username" value=""></p>
+		</div>
+		<div>
+			<p>Пароль</p>
+			<p><input tabindex="2" type="password" name="userpass" value=""></p>
+		</div>
+		<div>
+			<p>Телефон</p>
+			<p><input tabindex="3" type="tel" name="telephone" value=""></p>
+		</div>
+		<div>
+			<p>Пол</p>
+			<div><input tabindex="4" checked type="radio" name="gender" value="male">Мужской</div>
+			<div><input tabindex="4" type="radio" name="gender" value="female">Женский</div>
+		</div>
+		<div>
+			<p>Имущество</p>
+			<div><input tabindex="5" checked type="checkbox" name="bike" value="yes">Велик</div>
+			<div><input tabindex="6" type="checkbox" name="car" value="yes">Машина</div>
+			<div><input tabindex="7" disabled type="checkbox" name="house" value="yes">Квартира</div>
+		</div>
+		<div>
+			<p>Дополнительная инфомрация</p>
+			<p><textarea tabindex="8" name="text"></textarea></p>
+		</div>
+		<div>
+			<p>Прикрепить фото</p>
+			<input tabindex="9" type="file">
+		</div>
+		<div>
+			<p>Любимый цвет</p>
+			<p>
+				<select tabindex="10" name="Color">
+					<option value="red">Красный</option>
+					<option value="yellow">Желтый</option>
+					<option selected value="blue">Голубой</option>
+					<option value="green">Зеленый</option>
+				</select>
+			</p>
+		</div>
+		<div>
+			<p>Действия</p>
+			<p>
+				<button tabindex="11" type="submit">Отправить</button>
+				<button tabindex="12" type="reset">Очитстить</button>
+			</p>
+		</div>
+	</form>
+
+</body>
+
+</html>
