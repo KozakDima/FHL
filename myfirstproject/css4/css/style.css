@@ -36,38 +36,7 @@ img{vertical-align: top;}
 
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /*Обнуляющий шаблон*/
-body{
-	padding: 53px 50px;
-}
+
 .t1{
-	max-width:611px;
-	padding: 0px 0px 33px 0px;
+	padding: 23px 619px 0px 50px;	
 }
-.t3{
-	display: block;
-}
-.t4{
-	padding: 32px 0px 34px 0px;
-}
-.t5{
-	display: inline-block;
-	padding: 0px 41px 0px 0px;
-}
-.t6{
-	display: inline-block;
-}
-.t7{
-	display: inline-block;
-	width: 503px;
-	text-align: center;
-}
-.t8{
-	display: inline-block;
-	min-width: 480px;
-}
-.t9{
-	display: block;
-	margin: 40px 0px;
-}
-
-
