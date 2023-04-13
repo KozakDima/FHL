@@ -37,6 +37,15 @@ img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /*Обнуляющий шаблон*/
 
-.t1{
-	padding: 23px 619px 0px 50px;	
+.example-block {
+	visibility: ;
+	font-style: 50px;
+
+}
+.example-string {
+	outline: 5px dotted #000;
+	
+}
+.example-image {
+	border: 5px dotted #000;
 }
