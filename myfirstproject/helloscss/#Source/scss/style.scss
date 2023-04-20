@@ -1,0 +1,8 @@
+@import "nullstyle.scss";
+$fz:70px;
+.block {
+	font-size: $fz;
+	span{
+		color: green;
+	}
+}
